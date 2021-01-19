@@ -11,7 +11,7 @@ a {
   text-decoration: ;
 }
 
-#block_page {
+#blockPage {
   margin: 3%;
 }
 
@@ -75,7 +75,7 @@ header {
 
 .searchBarBtn {
   padding: 0px 15px 0px 15px;
-  border: 1px solid #0065fc;
+  border: 1px solid;
   border-radius: 0px 15px 15px 0px;
   color: white;
   background-color: #0065fc;
@@ -150,3 +150,114 @@ header {
 }
 
 /* SEARCH SECTION */
+
+/* HOSTING RESULT SECTION */
+
+.hostingImages {
+  width: 14rem;
+  height: 8rem;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hostingPopularImages {
+  width: 8rem;
+  height: 8rem;
+}
+
+.hosting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hostingBox {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 1rem;
+
+  width: 50rem;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.hostingBox > h2 {
+  padding-left: 1rem;
+}
+.hostingBox > p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.hostingResultBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.hostingResult {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.3rem;
+  margin-bottom: 2rem;
+
+  border-radius: 20px;
+  background-color: white;
+}
+
+.hostingResultBox h3 {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.hostingResultBox p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.hostingResultStars {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  color: #0065fc;
+}
+
+.greyStars {
+  color: #f2f2f2;
+}
+
+/* HOSTING RESULT POPULAR SECTION */
+
+.hostingPopularBox {
+  display: flex;
+  flex-direction: column;
+
+  width: 20rem;
+  border-radius: 20px;
+
+  background-color: #f2f2f2;
+}
+
+.titleHostingPopular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.hostingPopularBoxResult {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hostingPopularResult {
+  display: flex;
+}
