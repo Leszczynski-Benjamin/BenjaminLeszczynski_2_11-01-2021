@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
 }
 
-.headerNav ul {
+.navHeader ul {
   display: flex;
 
   list-style: none;
@@ -48,7 +48,6 @@ header {
 /*HEADER*/
 
 /* SEARCH SECTION */
-
 .searchDescription h3 {
   margin-bottom: 0%;
 }
@@ -62,24 +61,48 @@ header {
 }
 
 .searchBarIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1%;
   border-radius: 15px 0px 0px 15px;
   background-color: #f2f2f2;
 }
 
+.researchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .searchBarText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+
   border: 1px solid #f2f2f2;
   padding-left: 10px;
   outline: none;
+
+  font-size: 1em;
 }
 
 .searchBarBtn {
-  padding: 0px 15px 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 8rem;
+
+  padding: 0px 5px 0px 5px;
   border: 1px solid;
   border-radius: 0px 15px 15px 0px;
   color: white;
   background-color: #0065fc;
   outline: none;
+
+  font-size: 1em;
 }
 
 .searchFilters {
@@ -163,6 +186,8 @@ header {
 .hostingPopularImages {
   width: 8rem;
   height: 8rem;
+
+  border-radius: 20px 0px 0px 20px;
 }
 
 .hosting {
@@ -231,6 +256,8 @@ header {
   color: #f2f2f2;
 }
 
+/* HOSTING RESULT SECTION */
+
 /* HOSTING RESULT POPULAR SECTION */
 
 .hostingPopularBox {
@@ -247,17 +274,39 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 1rem;
 }
 
 .hostingPopularBoxResult {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 
 .hostingPopularResult {
   display: flex;
+  align-items: center;
+  padding: 0.3rem;
+
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.hostingPopularResultDescription {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.hostingPopularResultDescription h3 {
+  margin-top: 0px;
+}
+
+.hostingPopularResultDescription p {
+  margin-top: -10px;
+}
+
+.hostingPopularResultDescription div {
+  margin-top: 10px;
+  padding-left: 0px;
 }
