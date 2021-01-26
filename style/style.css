@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -193,6 +199,8 @@ header {
 .hosting {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 2rem;
 }
 
 .hostingBox {
@@ -310,3 +318,95 @@ header {
   margin-top: 10px;
   padding-left: 0px;
 }
+/* SECTION ACTIVITY */
+.activityLink {
+  display: flex;
+  flex-direction: column;
+}
+
+.activityBox {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 3rem;
+}
+
+.activityBox h3 {
+  padding-left: 10px;
+}
+
+.verticalBox {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  box-shadow: -5px 5px 15px grey;
+  width: 300px;
+}
+
+.verticalImg {
+  object-position: top;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  height: 468px;
+}
+
+.horizontalBoxFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.horizontalBox {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  box-shadow: -5px 5px 15px grey;
+}
+
+.horizontalImg1 {
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+
+  height: 200px;
+  width: 300px;
+}
+
+.horizontalImg2 {
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  height: 100px;
+  width: 300px;
+}
+
+.horizontalImg3 {
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  height: 170px;
+  width: 300px;
+}
+
+/* FOOTER */
+
+.footerBox {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #f2f2f2;
+}
+
+.footerBoxChild {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-left: -200px;
+}
+
+.footerBoxChildTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* FOOTER */
