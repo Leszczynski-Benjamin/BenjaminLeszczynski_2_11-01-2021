@@ -360,13 +360,14 @@ header {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   height: 468px;
+  width: 100%;
 }
 
 .horizontalBoxFlex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 20%;
+  width: 25%;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -381,13 +382,14 @@ header {
 .horizontalImg1 {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
-
+  width: 100%;
   height: 200px;
 }
 
 .horizontalImg2 {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+  width: 100%;
   height: 100px;
 }
 
@@ -395,6 +397,7 @@ header {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   height: 170px;
+  width: 100%;
 }
 
 /* FOOTER */
