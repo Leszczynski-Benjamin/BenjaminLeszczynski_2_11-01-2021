@@ -14,11 +14,11 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  text-decoration: ;
 }
 
 #blockPage {
   margin: 3%;
+  margin-bottom: 0px;
 }
 
 /*HEADER*/
@@ -183,15 +183,18 @@ header {
 /* HOSTING RESULT SECTION */
 
 .hostingImages {
-  width: 14rem;
-  height: 8rem;
+  width: 224px;
+  height: 128px;
+  object-fit: cover;
 
   border-radius: 20px 20px 0px 0px;
 }
 
 .hostingPopularImages {
-  width: 8rem;
-  height: 8rem;
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  padding-left: 4px;
 
   border-radius: 20px 0px 0px 20px;
 }
@@ -272,7 +275,6 @@ header {
   display: flex;
   flex-direction: column;
 
-  width: 20rem;
   border-radius: 20px;
 
   background-color: #f2f2f2;
@@ -282,20 +284,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin: 15px 20px;
 }
 
 .hostingPopularBoxResult {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+
+  height: 100%;
 }
 
 .hostingPopularResult {
   display: flex;
   align-items: center;
-  padding: 0.3rem;
 
-  margin-bottom: 2rem;
+  width: 80%;
+  height: 27%;
   border-radius: 20px;
   background-color: white;
 }
@@ -315,7 +322,6 @@ header {
 }
 
 .hostingPopularResultDescription div {
-  margin-top: 10px;
   padding-left: 0px;
 }
 /* SECTION ACTIVITY */
@@ -391,7 +397,6 @@ header {
 .footerBox {
   display: flex;
   justify-content: space-around;
-
   background-color: #f2f2f2;
 }
 
