@@ -55,6 +55,10 @@ header {
   color: #0065fc;
 }
 
+article:hover {
+  transform: scale(1.1);
+}
+
 /*HEADER*/
 
 /* SEARCH SECTION */
@@ -198,7 +202,6 @@ header {
   width: 145px;
   height: 145px;
   object-fit: cover;
-  padding-left: 4px;
 
   border-radius: 20px 0px 0px 20px;
 }
@@ -306,9 +309,9 @@ header {
 .hostingPopularResult {
   display: flex;
   align-items: center;
+  padding: 4px;
 
   width: 80%;
-  height: 27%;
   border-radius: 20px;
   background-color: white;
 }
