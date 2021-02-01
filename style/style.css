@@ -407,10 +407,17 @@ article:hover {
 
 /* FOOTER */
 
+footer {
+  display: flex;
+  padding-left: 30px;
+
+  background-color: #f2f2f2;
+}
+
 .footerBox {
   display: flex;
-  justify-content: space-around;
-  background-color: #f2f2f2;
+  justify-content: space-between;
+  width: 77%;
 }
 
 .footerBoxChild {
@@ -418,8 +425,6 @@ article:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
-  margin-left: -200px;
 }
 
 .footerBoxChildTitle {
@@ -428,5 +433,3 @@ article:hover {
 }
 
 /* FOOTER */
-
-@media screen;
