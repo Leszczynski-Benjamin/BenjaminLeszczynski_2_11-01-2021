@@ -433,3 +433,37 @@ footer {
 }
 
 /* FOOTER */
+
+/* MEDIA QUERY FOR TABLET */
+
+@media screen and (max-width: 1024px) {
+  .hosting {
+    flex-direction: column;
+  }
+
+  .hostingBox {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .hostingPopularBox {
+    width: 100%;
+  }
+
+  .hostingPopularBoxResult {
+    height: 0%;
+  }
+
+  .hostingPopularBoxResult a {
+    width: 100%;
+  }
+
+  .hostingPopularResult {
+    margin-bottom: 1rem;
+  }
+
+  .searchFilters {
+    flex-wrap: wrap;
+  }
+} ;
