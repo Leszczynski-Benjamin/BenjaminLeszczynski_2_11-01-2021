@@ -470,4 +470,36 @@ footer {
   .searchFilters {
     flex-wrap: wrap;
   }
+
+  .activityBox {
+    display: block;
+  }
+
+  .verticalBox {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .verticalImg {
+    object-position: center;
+    height: 200px;
+  }
+
+  .horizontalBox {
+    margin-bottom: 2rem;
+  }
+
+  .horizontalBoxFlex {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .horizontalImg2 {
+    height: 200px;
+  }
+
+  .horizontalImg3 {
+    height: 200px;
+  }
 } ;
