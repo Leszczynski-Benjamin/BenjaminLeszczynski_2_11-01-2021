@@ -7,8 +7,8 @@ body {
 
 ul {
   list-style: none;
-  padding-inline-start: 0px;
-  margin-block-start: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -454,7 +454,7 @@ footer {
   }
 
   .hostingPopularBoxResult {
-    height: 0%;
+    height: auto;
   }
 
   .hostingPopularBoxResult a {
@@ -463,6 +463,7 @@ footer {
 
   .hostingPopularResult {
     margin-bottom: 1rem;
+    width: 60%;
   }
 }
 
@@ -502,4 +503,8 @@ footer {
   .horizontalImg3 {
     height: 200px;
   }
-} ;
+
+  article:hover {
+    transform: none;
+  }
+}
