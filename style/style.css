@@ -436,9 +436,9 @@ footer {
 
 /* MEDIA QUERY FOR TABLET */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
   .hosting {
-    flex-direction: column;
+    flex-wrap: wrap-reverse;
   }
 
   .hostingBox {
@@ -449,6 +449,8 @@ footer {
 
   .hostingPopularBox {
     width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
   }
 
   .hostingPopularBoxResult {
@@ -462,7 +464,9 @@ footer {
   .hostingPopularResult {
     margin-bottom: 1rem;
   }
+}
 
+@media screen and (max-width: 961px) {
   .searchFilters {
     flex-wrap: wrap;
   }
