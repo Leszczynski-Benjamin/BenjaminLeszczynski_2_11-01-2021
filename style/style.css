@@ -21,14 +21,14 @@ a {
 }
 
 #blockPage {
-  margin: 3%;
-  margin-bottom: 0px;
+  margin: 0 3% 0 3%;
 }
 
 /*HEADER*/
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -45,13 +45,11 @@ header {
 
 .link {
   margin-right: 50px;
-  padding: 0px 20px 0px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .link:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 35px;
-
   color: #0065fc;
 }
 
@@ -506,5 +504,63 @@ footer {
 
   article:hover {
     transform: none;
+  }
+}
+
+/* MEDIA QUERY FOR PHONE */
+
+@media screen and (max-width: 730px) {
+  .footerBox {
+    flex-direction: column;
+  }
+
+  #Logo {
+    max-height: 45px;
+    max-width: 95px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    position: relative;
+  }
+
+  #signupBlock {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+
+  #hostingNavBlock {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+  }
+
+  #activityNavBlock {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+  }
+
+  #blockPage {
+    margin: 0px 0px 0px 1px;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+  }
+
+  .link:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    padding: 0;
   }
 }
