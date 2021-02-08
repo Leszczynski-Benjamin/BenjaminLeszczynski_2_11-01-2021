@@ -514,6 +514,11 @@ footer {
     flex-direction: column;
   }
 
+  header {
+    flex-direction: column;
+    position: relative;
+  }
+
   #Logo {
     max-height: 45px;
     max-width: 95px;
@@ -524,6 +529,16 @@ footer {
   header {
     flex-direction: column;
     position: relative;
+  }
+
+  .navHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navHeader ul {
+    width: 100%;
   }
 
   #signupBlock {
