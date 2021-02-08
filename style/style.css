@@ -519,6 +519,11 @@ footer {
     position: relative;
   }
 
+  #LogoBlock {
+    display: flex;
+    width: 100%;
+  }
+
   #Logo {
     max-height: 45px;
     max-width: 95px;
