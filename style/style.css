@@ -51,6 +51,7 @@ header {
 .link:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
+  padding-top: 12px;
 }
 
 article:hover {
