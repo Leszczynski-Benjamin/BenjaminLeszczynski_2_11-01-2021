@@ -77,6 +77,11 @@ article:hover {
   display: none;
 }
 
+.filtersBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .searchBarIcon {
   display: flex;
   justify-content: center;
@@ -703,5 +708,19 @@ footer {
 
   .activityLink h2 {
     font-size: 1.3rem;
+  }
+
+  .searchFiltersIcon {
+    width: 41px;
+    height: 45px;
+  }
+
+  .searchFilters p {
+    padding: 0rem 1rem 0rem 0.5rem;
+  }
+
+  .searchFiltersBlock {
+    height: 39px;
+    margin-right: 7px;
   }
 }
